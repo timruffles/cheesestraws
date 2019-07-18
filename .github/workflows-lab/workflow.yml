@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
 
   runa:
-    name: RunA
+    name: Foo
     runs-on: ubuntu-latest
     actions:
 
@@ -18,7 +18,7 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
   runb:
-    name: RunB
+    name: Bar
     runs-on: ubuntu-latest
     actions:
 
